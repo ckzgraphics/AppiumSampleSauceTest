@@ -25,3 +25,10 @@ This is a sample test project
 
 1. Add 'SAUCE_USER' and 'SAUCE_KEY' system environment
 2. If step 1 cannot be completed update Line 3, 4 in the 'config.properties' file
+
+# Execute
+
+To run the test execute the following maven command:
+```
+mvn test
+```
