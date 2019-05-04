@@ -1,0 +1,10 @@
+{
+"execution":"sauce",
+"capabilities": {
+"testobject_suite_name": "Test_Suite",
+"testobject_test_name": "Test_Wiki_app",
+"testobject_app_id": "2",
+"platformName": "Android",
+"platformVersion": "6.0"
+}
+}

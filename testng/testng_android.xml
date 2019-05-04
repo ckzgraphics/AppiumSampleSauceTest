@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Native_Mobile">
+	<listeners>
+		<listener class-name="com.sl.listner.TestNGListner" />
+	</listeners>
+	<test name="SmokeTest">
+		<parameter name="environment" value="sauce_environment.json" />
+		<classes>
+			<class name="com.sl.test.TC_Search" />
+			<class name="com.sl.test.TC_Language_Settings" />
+		</classes>
+	</test>
+
+</suite>
